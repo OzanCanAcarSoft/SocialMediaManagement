@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite Sample Project
 
 # Proje Açıklaması
@@ -48,3 +49,7 @@ cd my-app
 
 # Bağımlılıkları yükleyin
 npm install
+=======
+# SocialMediaManagement
+This project allows stakeholders to manage users and posts on a social media.
+>>>>>>> 8ed6e7f88e54e6fea5c436f59f22d99f2808d031
