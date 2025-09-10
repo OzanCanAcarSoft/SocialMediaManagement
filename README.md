@@ -16,20 +16,23 @@ my-app/
 
 ## !! FRONTEND SETUP !!
 
-Navigate to the frontend folder:
-```bash
-cd frontend
+## VS Code Setup
+Open my-app folder using VS Code.
+Open a Terminal on VS Code.
+
+## Navigate to the frontend folder:
+Use command "cd frontend" on Terminal.
 
 ## Install Dependencies
-npm install
+Use command "npm install" on Terminal.
 
 ## Start the development server
-npm run dev
+Use Command "npm run dev" on Terminal.
 
 ## Open the app in your browser
-http://localhost:5173 (Example)
+The app must be started on your local server like http://localhost:5173 (Example)
 
-##Features
+## Features
 Homepage with links to Users and Posts
 List, Add, Edit, and Delete operations for Users and Posts
 Fetches data from backend API
@@ -38,14 +41,18 @@ TypeScript + ESLint compliant
 
 ## !! BACKEND SETUP !!
 
+## VS Code
+Open a new Terminal on VS Code
+The Frontend must be running. So do not close the previous Terminal!
+
 ## Navigate to the Backend Folder
-cd backend
+Use command "cd backend" on Terminal.
 
 ## Install Dependencies
-npm install
+Use command "npm install" on Terminal.
 
 ## Start Development Server
-npm run start:dev
+Use command "npm run start:dev" on Terminal.
 
 ## Backend will run on
 http://localhost:4000 (Example)
@@ -68,7 +75,7 @@ Posts:
 -DELETE /api/posts/:id - Delete a post
 
 ## How to Use:
-Start backend: npm run start:dev in backend/ folder
-Start frontend: npm run dev in frontend/ folder
-Open http://localhost:5173 in your browser and navigate through the app.
+Start backend: npm run start:dev in backend/ folder. Check "!! BACKEND SETUP !!" part above.
+Start frontend: npm run dev in frontend/ folder. Check "!! FRONTEND SETUP !!" part above.
+Open http://localhost:5173 (Example) in your browser and navigate through the app.
 You can use the application from your Local Frontend server.
