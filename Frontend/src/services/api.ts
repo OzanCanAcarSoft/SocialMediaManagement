@@ -12,7 +12,7 @@ export interface Post {
   body?: string;
 }
 
-const BASE = 'https://jsonplaceholder.typicode.com';
+const BASE = 'http://localhost:4000/api';
 
 async function handleRes<T>(res: Response): Promise<T> {
   if (!res.ok) throw new Error('Network error');
@@ -61,3 +61,4 @@ export const deletePost = (id: number) =>
     if (!res.ok) throw new Error('Delete failed');
     return true;
   });
+
